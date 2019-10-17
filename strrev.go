@@ -7,7 +7,7 @@ func StrRev(s string) string {
 		length = i
 	}
 
-	for i, j := 0, lenth; i < j; i, j = i+1, j-1 {
+	for i, j := 0, length; i < j; i, j = i+1, j-1 {
 		runes[i], runes[j] = runes[j], runes[i]
 	}
 	return string(runes)
