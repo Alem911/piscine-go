@@ -4,7 +4,7 @@ import "github.com/01-edu/z01"
 
 func PrintStr(str string) {
 
-for _, g := range str {
-	z01.PrintRune(g)
-}
+	for _, g := range str {
+		z01.PrintRune(g)
+	}
 }
