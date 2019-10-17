@@ -8,7 +8,7 @@ func PrintComb2() {
 	for x := '0'; x <= '9'; x = x + 1 {
 		for y := '0'; y <= '9'; y = y + 1 {
 			b := y + 1
-			for a := x; a <= '9'; y = a + 1 {
+			for a := 'x'; a <= '9'; y = a + 1 {
 				for ; b <= '9'; b = b + 1 {
 					z01.PrintRune(x)
 					z01.PrintRune(y)
