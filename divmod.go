@@ -1,5 +1,6 @@
-package piscine 
-func DivMod(x int, y int, div *int, mod *int)
-*div = x / y
-*mod a % b 
+package piscine
+
+func DivMod(a int, b int, div *int, mod *int) {
+	*div = a / b
+	*mod = a % b
 }
