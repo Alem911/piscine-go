@@ -15,15 +15,15 @@ func SetNbr(a int) {
 		z01.PrintRune(b)
 		return
 	}
-	for c := 1; c <= x%10; c++ {
+	for c := 1; c <= a%10; c++ {
 		b++
 	}
-	for c := -1; c >= x%10; c-- {
+	for c := -1; c >= a%10; c-- {
 		b++
 	}
 	if a/10 != 0 {
-		SetNbr(x / 10)
+		SetNbr(a / 10)
 	}
-	z01.PrintRune(h)
+	z01.PrintRune(b)
 	return
 }
